@@ -22,7 +22,7 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
     /* header_menu */   
         /* icon */
         header>input[id="header_menu"]{display:none;}
-        header>input[id="header_menu"]+label{display:block; width:25px; height:20px; position:relative; cursor:pointer; top:50%; transform:translateY(-50%); left:20px; z-index:30;}
+        header>input[id="header_menu"]+label{display:block; width:25px; height:20px; position:relative; cursor:pointer; top:50%; transform:translateY(-50%); left:20px; z-index:60;}
         header>input[id="header_menu"]+label span{display:block; position:absolute; width:100%; height:4px; border-radius:500px; background:#222; transition:0.6s;}
         header>input[id="header_menu"]+label:hover span{background:#0e9cff;}
         header>input[id="header_menu"]+label span:nth-child(1){top:0}
@@ -34,9 +34,9 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
         header>input[id="header_menu"]+label>div{position:absolute; left:40px; top:50%; transform:translateY(-50%); height:auto; width:50px; font-weight:bold; color:#222; transition:0.3s;}
         header>input[id="header_menu"]+label:hover div{color:#0e9cff;}
         /* sidebar */
-        header>div[class="sidebar"]{width:380px; height:100%; background:#fff; position:fixed; top:0; left:-380px; z-index:20; transition:0.7s;}
+        header>div[class="sidebar"]{width:380px; height:100%; background:#fff; position:fixed; top:0; left:-380px; z-index:50; transition:0.7s;}
         header>input[id="header_menu"]:checked+label+div{left:0;}
-        .sidebar_bg{position:fixed; top:0; left:0; width:100%; height:100%; background:#000000b3; transition:0.5s; opacity:0; visibility:hidden; z-index:15;}
+        .sidebar_bg{position:fixed; top:0; left:0; width:100%; height:100%; background:#000000b3; transition:0.5s; opacity:0; visibility:hidden; z-index:40;}
         header>input[id="header_menu"]:checked~.sidebar_bg{opacity:1; visibility:visible;}
         header>.sidebar>ul{width:270px; height:auto; position:absolute; top:70px; left:50%; transform:translateX(-50%);}
         header>.sidebar>ul>li{height:45px; line-height:45px; font-size:14px; text-align:center; transition:0.35s; position:absolute;}
@@ -62,18 +62,18 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
 
 /* section1 */
 #section1{float:left; background:#8df6ff; width:100%; height:100%; overflow:hidden; position:absolute; left:0; top:0; z-index:-5; background-image:url('../img/Page03_bg.png'); background-size:cover;}
-#section1>.charimg{height:50%; position:absolute; left:-55px; top:15%; animation:char 0.8s linear 0.4s 1 normal forwards; opacity:0;}
+#section1>.charimg{height:50%; position:absolute; left:-3%; top:15%; animation:char 0.8s linear 0.4s 1 normal forwards; opacity:0;}
 @keyframes char{
     0%{opacity:0; transform:scale(0.8);}
     100%{opacity:1; transform:scale(1);}
 }
-#section1>.heart{position:absolute; height:120px;}
+#section1>.heart{position:absolute; height:13%;}
 @keyframes heart{
     0%{transform:scale(0.8);}
     100%{transform:scale(1.0);}
 }
-.heart1{left:250px; top:500px; animation:heart 0.5s ease-in 0.4s alternate-reverse infinite; z-index:5;}
-.heart2{top:200px; animation:heart 0.4s ease-in 0.4s alternate-reverse infinite;}
+.heart1{left:12.6%; top:45%; animation:heart 0.5s ease-in 0.4s alternate-reverse infinite; z-index:5;}
+.heart2{top:20%; animation:heart 0.4s ease-in 0.4s alternate-reverse infinite;}
 
 /* section2 */
 #section2{width:80.5%; height:86%; float:left; position:absolute; right:0; top:5.5vh; text-align:center;}
@@ -100,5 +100,9 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
 .heart4{right:23%; top:69%; animation:heart 0.25s ease-in 0.4s alternate-reverse infinite;}
 
 /* footer */
-footer{float:left; background:#0c928a; width:100%; height:8.5%; position:absolute; bottom:0; left:0; color:#fff; text-align:center;}
+footer{float:left; background:#0c928a; width:100%; height:8.5%; position:absolute; bottom:0; left:0; color:#fff; text-align:center; z-index:30;}
 footer p{color:#fff; font-size:12px; display:inline-block; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);}
+
+@media screen and (max-width:1600px){
+    .hideinfo{width:33%; height:60%;}
+}
