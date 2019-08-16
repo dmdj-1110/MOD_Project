@@ -151,3 +151,11 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
 /* footer */
 footer{float:left; background:#0c928a; width:100%; height:8.5%; position:absolute; bottom:0; left:0; color:#fff; text-align:center;}
 footer p{color:#fff; font-size:12px; display:inline-block; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);}
+
+@media screen and (max-width:1600px){
+    .eventcon h3{cursor:default; color:#ffed1f; font-family:'Black Han Sans', sans-serif; font-size:40px; font-weight:400; display:inline-block; margin-top:28px;}
+    .eventcon h3 p{color:#ffed1f; font-family:'Black Han Sans', sans-serif; font-size:40px; font-weight:400; display:inline-block;}
+    .eventtext{font-size:18px; width:100%; height:auto; line-height:1.5; margin-top:5px;}
+    .date{font-size:17px; display:inline-block; width:auto; padding:3px 20px; border-radius:5px; cursor:default;}
+
+}
