@@ -64,7 +64,7 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
 
 /* section1 */
 #section1{float:left; background:#8df6ff; width:100%; height:100%; overflow:hidden; position:absolute; left:0; top:0; z-index:-5; background-image:url('../img/Page03_bg.png'); background-size:cover;}
-#section1>.charimg{height:500px; position:absolute; left:-55px; top:15%; animation:char 0.8s linear 0.4s 1 normal forwards; opacity:0;}
+#section1>.charimg{height:50%; position:absolute; left:-55px; top:15%; animation:char 0.8s linear 0.4s 1 normal forwards; opacity:0;}
 @keyframes char{
     0%{opacity:0; transform:scale(0.8);}
     100%{opacity:1; transform:scale(1);}
@@ -89,11 +89,11 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
 #section2_con p .con_h{color:#0690f4; font-size:20px; padding:0 10px;}
 #section2_con #section2_ct{width:100%; height:auto;}
 #section2_con h2 span{font-size:65px; text-shadow:0 3px 0px #159fff; color:#73f3fd;}
-.seeimg{position:absolute; left:50%; transform:translateX(-50%);}
-.hideimg{width:570px; position:absolute; transition:0.5s; left:50%; transform:translateX(-50%); z-index:3;}
+.seeimg{width:50%; position:absolute; left:50%; transform:translateX(-50%);}
+.hideimg{width:50%; position:absolute; transition:0.5s; left:50%; transform:translateX(-50%); z-index:3;}
 
 #section2_ci{width:100%; height:73%; overflow:hidden; position:relative;}
-.hideinfo{width:350px; height:270px; box-sizing:border-box; border-top:13px solid #94fdfa; border-right:13px solid #63eeff; border-bottom:13px solid #63eeff; border-left:13px solid #94fdfa; border-radius:30px; background:#fff; position: absolute; left:66%; top:30px; opacity:0;}
+.hideinfo{width:350px; height:50%; box-sizing:border-box; border-top:13px solid #94fdfa; border-right:13px solid #63eeff; border-bottom:13px solid #63eeff; border-left:13px solid #94fdfa; border-radius:30px; background:#fff; position: absolute; left:66%; top:30px; opacity:0;}
 #section2 .hideinfo>h3{font-size:22px; color:#222; display:inline-block; padding-top:15px; padding-bottom:5px;}
 #section2 .hideinfo>p{text-align:left; margin-top:6px; margin-left:20px; font-size:15px;}
 .hideheart{position:absolute; height:160px; z-index:10;}
