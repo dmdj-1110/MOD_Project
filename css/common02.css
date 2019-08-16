@@ -130,14 +130,11 @@ footer p{color:#fff; font-size:12px; display:inline-block; position:absolute; le
 @media screen and (max-width:1600px){
     .control>h3{margin-top:10px; color:#222; display:inline-block; width:auto; border-top:#fff729 10px solid; border-right:#ffc649 10px solid; border-bottom:#ffc649 10px solid; border-left:#fff729 10px solid; padding:0 20px; font-size:20px; background:#ffd63f; height:12%; line-height:180%;}
     .play>h3{margin-top:10px; color:#222; display:inline-block; width:auto; border-top:#fff729 10px solid; border-right:#ffc649 10px solid; border-bottom:#ffc649 10px solid; border-left:#fff729 10px solid; padding:0 20px; font-size:20px; background:#ffd63f; height:12%; line-height:180%;}
-    #section2_con .playw>div>p{display:inline-block; width:77%; font-weight:bold; font-size:85%; margin-top:5px;}
+    #section2_con .playw>div>p{display:inline-block; width:77%; font-weight:bold; font-size:66%; margin-top:5px;}
     #section1>img:nth-child(1){left:13%; top:10%; animation:block 2s linear 0.3s 1 normal forwards;}
     #section1>img:nth-child(2){left:6%; top:7.3%; animation:block 2s linear 0.5s 1 normal forwards;}
     #section1>img:nth-child(3){left:1%; bottom:31%; animation:block 2s linear 0.7s 1 normal forwards;}
     #section1>img:nth-child(4){left:7.3%; bottom:31%; animation:block 2s linear 0.9s 1 normal forwards;}
     #section1>img:nth-child(5){left:6.5%; top:31%; animation:block 2s linear 1.2s 1 normal forwards;}
     #section1>img:nth-child(6){left:13%; top:33%; animation:block 2s linear 1.4s 1 normal forwards;}
-}
-@media screen and (max-height:786px){
-    #section2_con .playw>div>p{display:inline-block; width:77%; font-weight:bold; font-size:66%; margin-top:5px;}
 }
