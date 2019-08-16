@@ -72,12 +72,12 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
 #section1>.block{height:120px;}
 #section1>.house{height:150px;}
 #section1>.tree{height:140px;}
-#section1>img:nth-child(1){left:250px; top:100px; animation:block 2s linear 0.3s 1 normal forwards;}
-#section1>img:nth-child(2){left:145px; top:72px; animation:block 2s linear 0.5s 1 normal forwards;}
-#section1>img:nth-child(3){left:20px; bottom:300px; animation:block 2s linear 0.7s 1 normal forwards;}
-#section1>img:nth-child(4){left:120px; bottom:300px; animation:block 2s linear 0.9s 1 normal forwards;}
-#section1>img:nth-child(5){left:140px; top:300px; animation:block 2s linear 1.2s 1 normal forwards;}
-#section1>img:nth-child(6){left:250px; top:320px; animation:block 2s linear 1.4s 1 normal forwards;}
+#section1>img:nth-child(1){left:13%; top:10%; animation:block 2s linear 0.3s 1 normal forwards;}
+#section1>img:nth-child(2){left:7.5%; top:7.3%; animation:block 2s linear 0.5s 1 normal forwards;}
+#section1>img:nth-child(3){left:1%; bottom:31%; animation:block 2s linear 0.7s 1 normal forwards;}
+#section1>img:nth-child(4){left:6.3%; bottom:31%; animation:block 2s linear 0.9s 1 normal forwards;}
+#section1>img:nth-child(5){left:7.7%; top:31%; animation:block 2s linear 1.2s 1 normal forwards;}
+#section1>img:nth-child(6){left:13%; top:33%; animation:block 2s linear 1.4s 1 normal forwards;}
 /* section2 */
 #section2{width:80.5%; height:86%; float:left; position:absolute; right:0; top:5.5vh; text-align:center;}
 #section2_con{width:100%; height:100%; padding:2% 13%; background:#f4feff; box-sizing:border-box; border-left:1px solid #bbb;}
