@@ -60,8 +60,6 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
     header>#header_logo{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%)}
     header>#header_logo>a>img{height:45px;}
 
-        
-
 /* section1 */
 #section1{float:left; background:#61ff62; width:100%; height:100%; overflow:hidden; position:absolute; left:0; top:0; z-index:-5; background-image:url('../img/Page02_bg.png'); background-size:cover;}
 #section1>img{position:absolute; opacity:0;}
@@ -78,6 +76,7 @@ header{float:left; background:#ffffff; width:100%; height:5.5%; border-bottom:0.
 #section1>img:nth-child(4){left:6.3%; bottom:31%; animation:block 2s linear 0.9s 1 normal forwards;}
 #section1>img:nth-child(5){left:7.7%; top:31%; animation:block 2s linear 1.2s 1 normal forwards;}
 #section1>img:nth-child(6){left:13%; top:33%; animation:block 2s linear 1.4s 1 normal forwards;}
+
 /* section2 */
 #section2{width:80.5%; height:86%; float:left; position:absolute; right:0; top:5.5vh; text-align:center;}
 #section2_con{width:100%; height:100%; padding:2% 13%; background:#f4feff; box-sizing:border-box; border-left:1px solid #bbb;}
